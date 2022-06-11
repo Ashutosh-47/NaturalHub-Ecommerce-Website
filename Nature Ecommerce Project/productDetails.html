@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/png" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Product Details </title>
+</head>
+
+<body>
+ 
+  <!-- Navigation -->
+ 
+  <nav class="nav">
+    <div class="wrapper container">
+      <div class="logo"><a href="">
+      <img src="./images/logo.png" alt="">
+    </a>
+    </div>
+      <ul class="nav-list">
+        <div class="top">
+          <label for="" class="btn close-btn"
+            ><i class="fas fa-times"></i
+          ></label>
+        </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li>
+          <a href="" class="desktop-item"
+            >Shop <span><i class="fas fa-chevron-down"></i></span
+          ></a>
+          <input type="checkbox" id="showMega" />
+          <label for="showMega" class="mobile-item"
+            >Shop <span><i class="fas fa-chevron-down"></i></span
+          ></label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+              <img src="./images/nav.png" alt="" />
+              </div>
+              <div class="row">
+                <header>Shop Layout</header>
+                <ul class="mega-links">
+                  <li><a href="products.html">Shop Family Pack</a></li>
+                  <li><a href="products.html">Shop Mini Pack</a></li>
+                  <li><a href="products.html">Shop Big Pack</a></li>
+                  <li><a href="products.html">See All Categories</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Product <Details></Details></header>
+                <ul class="mega-links">
+                  <li><a href="productDetails.html">Family Pack</a></li>
+                  <li><a href="productDetails.html">Mini Pack</a></li>
+                  <li><a href="productDetails.html">Big Pack</a></li>
+                  <li><a href="productDetails.html">See All Categories</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="" class="desktop-item"
+            >Page <span><i class="fas fa-chevron-down"></i></span
+          ></a>
+          <input type="checkbox" id="showdrop2" />
+          <label for="showdrop2" class="mobile-item"
+            >Page <span><i class="fas fa-chevron-down"></i></span
+          ></label>
+          <ul class="drop-menu2">
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact us for Query</a></li>
+            <li><a href="">Faq</a></li>
+          </ul>
+        </li>
+        <!-- icons -->
+        <li class="icons">
+          <a href="cart.html">
+            <span>
+              <img src="./images/shoppingBag.svg" alt="" />
+              <small class="count d-flex">0</small>
+            </span>
+          </a>
+          <a href="products.html">
+          <span><img src="./images/search.svg" alt="" /></span>
+          </a>
+        </li>
+      </ul>
+      <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+  <!-- Product Details -->
+  <section class="section product-detail">
+    <div class="details container">
+      <div class="left">
+        <div class="main">
+          <img src="./images/product-1.jpg" alt="" />
+        </div>
+        <div class="thumbnails">
+          <div class="thumbnail">
+            <img src="./images/product-2.jpg" alt="" />
+          </div>
+          <div class="thumbnail">
+            <img src="./images/product-3.jpg" alt="" />
+          </div>
+          <div class="thumbnail">
+            <img src="./images/product-4.jpg" alt="" />
+          </div>
+          <div class="thumbnail">
+            <img src="./images/product-5.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <span> Home</span>
+        <h1> Family Pack</h1>
+        <div class="price"> ₹ 250</div>
+        <form>
+          <div>
+            <select>
+              <option value="Select Quantity" selected disabled>
+                Select Quantity
+              </option>
+              <option value="1">32</option>
+              <option value="2">42</option>
+              <option value="3">52</option>
+              <option value="4">62</option>
+            </select>
+            <span><i class="fas fa-chevron-down"></i></span>
+          </div>
+        </form>
+
+        <form class="form">
+          <input type="text" placeholder="1" />
+          <a href="cart.html" class="addCart">Add To Cart</a>
+        </form>
+        <h3>Product Detail</h3>
+        <p>“An apple a day keeps the doctor away,” or so the saying goes.
+          Healthcare professionals know that fruit is a highly nutritious, delicious, and convenient addition to any diet. 
+          With more than 2,000 varieties of fruit available, you may wonder which ones you should pick.
+
+    In addition, they’re a good source of vitamin C and plant polyphenols, which are disease-fighting compounds found in plants. 
+   In fact, consuming apples regularly may lower your risk of heart disease, stroke, cancer, overweight, obesity, and neurological disorders
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related Products -->
+
+  <section class="section related-products">
+    <div class="title">
+      <h2>Related Products</h2>
+      <span>Select from the premium product brands and save plenty money</span>
+    </div>
+    <div class="product-layout container">
+      <div class="product">
+        <div class="img-container">
+          <img src="./images/product-1.jpg" alt="" />
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+
+          <ul class="side-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html"> Mini pack</a>
+          <div class="price">
+            <span> ₹ 150</span>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="img-container">
+          <img src="./images/product-2.jpg" alt="" />
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+
+          <ul class="side-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html">Rolex Pack</a>
+          <div class="price">
+            <span>₹ 150</span>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="img-container">
+          <img src="./images/product-3.jpg" alt="" />
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+
+          <ul class="side-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html">Family Pack</a>
+          <div class="price">
+            <span> ₹ 150</span>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="img-container">
+          <img src="./images/product-4.jpg" alt="" />
+          <div class="addCart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+
+          <ul class="side-icons">
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="fas fa-sliders-h"></i></span>
+          </ul>
+        </div>
+        <div class="bottom">
+          <a href="productDetails.html">Big Pack</a>
+          <div class="price">
+            <span> ₹ 150</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Footer -->
+   <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="about.html">Brands</a>
+          <a href="about.html">Gift Certificates</a>
+          <a href="about.html">Affiliate</a>
+          <a href="productDetails.html">Specials</a>
+        </div>
+        <div class="footer-center">
+          <h3>INFORMATION</h3>
+          <a href="about.html">About Us</a>
+          <a href="about.html">Privacy Policy</a>
+          <a href="about.html">Terms & Conditions</a>
+          <a href="contact.html">Contact Us for Query</a>
+        </div>
+        <div class="footer-center">
+          <h3>MY ACCOUNT</h3>
+          <a href="cart.html">My Account</a>
+          <a href="cart.html">Order History</a>
+          <a href="cart.html">Wish List</a>
+          <a href="about.html">Newsletter</a>
+          <a href="cart.html">Returns</a>
+        </div>
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            452 Jagat Farm, Gamma  street, 1998 Homeville, Uttar Pradesh, India.
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            PureNature@gmail.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            +91 102-454-2569
+          </div>
+          <div class="payment-methods">
+            <h3>Payments Methods</h3>
+            <img src="./images/payment.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Custom Scripts -->
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
